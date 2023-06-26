@@ -1,7 +1,11 @@
 .main-container{
     width: 328px;
     margin: 150px auto;
-    position: relative;
+    
+}
+
+.user-section{
+    position: relative;    
 }
 
 .main-card{
@@ -13,7 +17,6 @@
         position: absolute;
         width: 100%;
         z-index: 1;
-
     }
     &__image{
         width: 72px;

@@ -1,0 +1,44 @@
+@media(min-width: 1200px){
+    // user section
+    .main-container{
+        width: 1150px;
+        display: flex;
+    }
+    .user-section{
+        width: 290px;
+        height: 564px;
+    }
+
+    .main-card{
+        &__user{
+            height: 370px;
+            flex-direction: column;
+        }
+        &__image{
+            width: 85px;
+            margin-bottom: 45px;
+        }
+        &__title{
+            font-size: 1em;
+        }
+        &__name{
+            font-size: 2.4em;
+        }
+        &__dates{
+            margin-top: 250px;
+            height: 200px;
+            flex-direction: column;
+            padding: 40px 32px 18px;
+        }
+    }
+
+    // activity section
+    .activity-section{
+        width: 860px;
+        height: 564px;
+        padding-top: 0;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 24px;
+    }
+}

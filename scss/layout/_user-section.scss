@@ -1,0 +1,43 @@
+.main-container{
+    width: 328px;
+    margin: 150px auto;
+    position: relative;
+}
+
+.main-card{
+    &__user{
+        background-color: $blue;
+        display: flex;
+        border-radius: 16px;
+        padding: 30px;
+
+    }
+    &__image{
+        width: 72px;
+        margin-right: 10px;
+        border: 3px solid $white;
+        border-radius: 50%;
+    }
+    &__title{
+        font-size: 0.9em;
+        margin: 10px 0 4px;
+    }
+    &__name{
+        font-size: 1.5em;
+        font-weight: 300;
+        color: $white;
+    }
+    &__dates{
+        background-color: $dark-blue;
+        border-radius: 16px;
+        display: flex;
+        justify-content: space-around;
+        height: 100px;
+        padding-top: 52px;
+        font-size: 1.2em;
+        position: absolute;
+        width: 100%;
+        top: 105px;
+        z-index: -1;
+    }
+}

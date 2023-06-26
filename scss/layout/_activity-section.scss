@@ -1,3 +1,55 @@
 .activity-section{
-    margin-top: 96px;
+    padding-top: 220px;
+}
+
+.card{
+    position: relative;
+    margin-bottom: 105px;
+    &__background{
+        background-color: $light-orange;
+        height: 80px;
+        border-top-left-radius: 16px;
+        border-top-right-radius: 16px;
+        overflow: hidden;
+    }
+    &__image{
+        margin-top: -10px;
+        padding-left: 235px;
+    }
+    &__details{
+        background-color: $dark-blue;
+        display: flex;
+        flex-direction: column;
+        height: 122px;
+        justify-content: space-between;
+        padding: 25px;
+        border-radius: 16px;
+        position: absolute;
+        width: 100%;
+        bottom: -85px;
+        &:hover{
+            background-color: $desaturated-blue;
+            cursor: pointer;
+        }
+    }
+    &__activity{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__interval{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__title{
+        font-size: 1.2em;
+        color: $white;
+        font-weight: 500;
+    }
+    &__hours{
+        font-size: 2em;
+        color: $white;
+        font-weight: 300;
+    }
 }

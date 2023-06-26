@@ -19,7 +19,10 @@ body {
   background-color: #5847eb;
   display: flex;
   border-radius: 16px;
-  padding: 30px; }
+  padding: 30px;
+  position: absolute;
+  width: 100%;
+  z-index: 1; }
 
 .main-card__image {
   width: 72px;
@@ -46,8 +49,61 @@ body {
   font-size: 1.2em;
   position: absolute;
   width: 100%;
-  top: 105px;
-  z-index: -1; }
+  top: 105px; }
+
+.main-card__frequency:hover {
+  cursor: pointer;
+  color: white; }
 
 .activity-section {
-  margin-top: 96px; }
+  padding-top: 220px; }
+
+.card {
+  position: relative;
+  margin-bottom: 105px; }
+  .card__background {
+    background-color: #ff8c66;
+    height: 80px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    overflow: hidden; }
+  .card__image {
+    margin-top: -10px;
+    padding-left: 235px; }
+  .card__details {
+    background-color: #1c1f4a;
+    display: flex;
+    flex-direction: column;
+    height: 122px;
+    justify-content: space-between;
+    padding: 25px;
+    border-radius: 16px;
+    position: absolute;
+    width: 100%;
+    bottom: -85px; }
+    .card__details:hover {
+      background-color: #6f76c8;
+      cursor: pointer; }
+  .card__activity {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .card__interval {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .card__title {
+    font-size: 1.2em;
+    color: white;
+    font-weight: 500; }
+  .card__hours {
+    font-size: 2em;
+    color: white;
+    font-weight: 300; }
+
+.atribution {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 60px; }
+  .atribution a {
+    color: #5847eb; }
